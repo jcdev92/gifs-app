@@ -5,7 +5,7 @@ import { Component, Input } from '@angular/core';
   templateUrl: './lazy-image.component.html',
 })
 export class LazyImageComponent {
-  @Input() public src: string = '';
+  @Input() public url: string = '';
   @Input() public alt: string = '';
   public hasLoaded: boolean = false;
 
